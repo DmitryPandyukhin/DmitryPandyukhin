@@ -1,5 +1,7 @@
 package main.core;
 
+import java.util.Scanner;
+
 public class LearningTask {
 //	Канель Е., Фрайман З. - JAVA. Задачи по основам программирования - 2019
 //	1.4-1.7		
@@ -169,5 +171,90 @@ public class LearningTask {
 //	
 //	sc.close();
 	
+//	try(Scanner sc = new Scanner(System.in)){
+		//2.26
+//		System.out.print("Введите год рождения: ");
+//		int y1 = sc.nextInt();
+//		System.out.print("Введите текущий год: ");
+//		int y2 = sc.nextInt();
+//		int r = y2 - y1;
+//		System.out.println("Возраст: " + r);
+		
+//		2.27
+//		System.out.print("Введите массу тела в граммах: ");
+//		int m = sc.nextInt();
+//		System.out.println("Масса тела в килограммах: " + m / 1000f);
+		
+//		2.28
+//		System.out.print("Введите расстояние в кабельтовых: ");
+//		int s = sc.nextInt();
+//		System.out.println(String.format("%s кабельта(-ов) = %s метра(-ов)", s, s * 182.2f));
+
+//		2.29
+//		System.out.print("Введите время в часах: ");
+//		int hour = sc.nextInt();
+//		System.out.println(String.format("Время в секундах = %s", hour*60));
+		
+//		2.30
+//		System.out.println("Который час?");
+//		System.out.print("Введите часы:");
+//		int h = sc.nextInt();
+//		System.out.print("Введите минуты:");
+//		int m = sc.nextInt();
+//		int r = 3600*h + 60*m;
+//		System.out.println(String.format("С полуночи до данного момента прошло %s секунд.", r));
+//		r = 60*h + m;
+//		System.out.println(String.format("С полуночи до данного момента прошло %s минут.", r));
+//		r = 24 * 60 - 60*h - m;
+//		System.out.println(String.format("%s минут осталось до полуночи", r));
+//	}
 	
+//	try(Scanner sc = new Scanner(System.in)){
+//		2.31
+//		System.out.println("Введите массу тела: ");
+//		int m = sc.nextInt();
+//		System.out.println("Введите скорость: ");
+//		int s = sc.nextInt();
+//		double e = m * s*s / 2.0d;
+//		System.out.println(String.format("Кинетическая энергия равна %s", e));
+		
+//		2.32
+//		System.out.println("Введите целое число: ");
+//		int a = sc.nextInt();
+//		System.out.println(-a);
+		
+//		3.33
+//		System.out.println("Введите основание 1: ");
+//		int a = sc.nextInt();
+//		System.out.println("Введите основание 2: ");
+//		int b = sc.nextInt();
+//		System.out.println("Введите высоту: ");
+//		int h = sc.nextInt();
+//		double s = (a + b) / 2.0d * h;
+//		System.out.println("Площадь трапеции равна " + s);
+		
+//		2.34
+//		String s = "Привет";
+//		System.out.println("Введите имя: ");
+//		String name = sc.next();
+//		System.out.println(s + ", " + name);
+		
+//		2.35
+//		System.out.println("Введите имя: ");
+//		String firstName = sc.next();
+//		System.out.println("Введите фамилию: ");
+//		String lastName = sc.next();
+//		System.out.println(String.format("Вас зовут %s %s", firstName, lastName));
+		
+//		2.38
+//		System.out.println("Введите фамилию: ");
+//		String lastName = sc.next();
+//		System.out.println("Введите имя: ");
+//		String firstName = sc.next();
+//		System.out.println("Введите отчество: ");
+//		String middleName = sc.next();
+//		String name = String.valueOf(lastName.charAt(0)) + firstName.charAt(0) + middleName.charAt(0);
+//		System.out.println(name);
+		
+//	}	
 }

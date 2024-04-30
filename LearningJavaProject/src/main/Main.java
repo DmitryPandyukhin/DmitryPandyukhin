@@ -3,46 +3,56 @@ package main;
 import java.util.Scanner;
 
 public class Main {
-
+	static Scanner sc = new Scanner(System.in);
+	
 	public static void main(String[] args) {
-		try(Scanner sc = new Scanner(System.in)){
-			//2.26
-//			System.out.print("Введите год рождения: ");
-//			int y1 = sc.nextInt();
-//			System.out.print("Введите текущий год: ");
-//			int y2 = sc.nextInt();
-//			int r = y2 - y1;
-//			System.out.println("Возраст: " + r);
+		
+//		4.1
+//		System.out.println("Введите целое положительное двузначное число:");
+//		int a = sc.nextInt();
+//		System.out.println(a / 10 + " " + a % 10);
 			
-//			2.27
-//			System.out.print("Введите массу тела в граммах: ");
-//			int m = sc.nextInt();
-//			System.out.println("Масса тела в килограммах: " + m / 1000f);
-			
-//			2.28
-//			System.out.print("Введите расстояние в кабельтовых: ");
-//			int s = sc.nextInt();
-//			System.out.println(String.format("%s кабельта(-ов) = %s метра(-ов)", s, s * 182.2f));
-
-//			2.29			
-			
-//			2.30
-//			System.out.println("Который час?");
-//			System.out.print("Введите часы:");
-//			int h = sc.nextInt();
-//			System.out.print("Введите минуты:");
-//			int m = sc.nextInt();
-//			
-//			int r = 3600*h + 60*m;
-//			System.out.println(String.format("С полуночи до данного момента прошло %s секунд.", r));
-//			
-//			r = 60*h + m;
-//			System.out.println(String.format("С полуночи до данного момента прошло %s минут.", r));
-//			
-//			r = 24 * 60 - 60*h - m;
-//			System.out.println(String.format("%s минут осталось до полуночи", r));
-			
-			
-		}
+//		4.2
+//		System.out.println("Введите целое положительное трехзначное число:");
+//		int a = sc.nextInt();
+//		int x1 = a / 100;
+//		int x2 = a % 100 / 10;
+//		int x3 = a % 100 % 10;
+//		System.out.println(x1 + " " + x2 + " " + x3);
+		
+//		4.6
+//		System.out.println("Введите целое положительное трехзначное число:");
+//		int a = sc.nextInt();
+//		int x1 = a / 100;
+//		int x2 = a % 100 / 10;
+//		int x3 = a % 100 % 10;
+//		System.out.println(100 * x1 + " " + 10 * x2 + " " + x3);
+		
+//		4.7
+//		System.out.println("Введите целое положительное двузначное число:");
+//		int a = sc.nextInt();
+//		int x1 = a / 10;
+//		int x2 = a % 10;
+//		int res = x2 * 10 + x1 + 8;
+//		System.out.println(res);
+		
+//		4.15
+//		System.out.println("Введите целое положительное четырехзначное число:");
+//		int a = sc.nextInt();
+//		int x1 = a / 1000;
+//		int x2 = a % 1000 / 100;
+//		int x3 = a % 1000 % 100 / 10;
+//		int x4 = a % 1000 % 100 % 10;
+//		
+//		int count = 0;
+//		if (x1 % 2 == 0) count++;
+//		if (x2 % 2 == 0) count++;
+//		if (x3 % 2 == 0) count++;
+//		if (x4 % 2 == 0) count++;
+//		
+//		System.out.println(count);
+		
+//		4.17
+		
 	}
 }
