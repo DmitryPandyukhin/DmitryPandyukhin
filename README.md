@@ -2,7 +2,7 @@
 Я — Java разработчик из Новочебоксарска.
 
 <p>
-	<a href="https://t.me/Dmitry0898">
+	<a href="https://t.me/Dmitry4985">
        		<img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
 	</a> </br>
 	📫 Мой email для связи: <a href='mailto:pandyukhin@gmail.com'>pandyukhin@gmail.com</a>
